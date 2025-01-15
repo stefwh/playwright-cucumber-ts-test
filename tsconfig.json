@@ -1,0 +1,17 @@
+// filepath: /c:/Users/shaindl/playwright-cucumber-ts-test/tsconfig.json
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "commonjs",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "typeRoots": [
+        "node_modules/@types"
+      ]
+    },
+    "include": [
+      "src/**/*.ts"
+    ]
+  }
