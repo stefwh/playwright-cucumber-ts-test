@@ -1,0 +1,365 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "adding-products-to-cart;add-a-product-to-the-cart",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Add a product to the cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 280069599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Navigate to the application",
+            "match": {
+              "location": "src\\test\\steps\\loginStep.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2745490299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Click on login link",
+            "match": {
+              "location": "src\\test\\steps\\loginStep.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 409134700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Enter the username as \"swtef\"",
+            "match": {
+              "location": "src\\test\\steps\\loginStep.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 886587099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Enter the password as \"Stego123!\"",
+            "match": {
+              "location": "src\\test\\steps\\loginStep.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69061399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Click on the login button",
+            "match": {
+              "location": "src\\test\\steps\\loginStep.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81413699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Search for the book \"Roomies\"",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 292523100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Add the book to the cart",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77394799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "The cart badge number is \"1\"",
+            "match": {
+              "location": "src\\test\\steps\\addToCartSteps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2038232500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 150382300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "adding-products-to-cart",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Adding products to cart",
+    "tags": [],
+    "uri": "src\\test\\features\\addToCart.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-authentication-tests;successful-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Successful login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 374155000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Navigate to the application",
+            "match": {
+              "location": "src\\test\\steps\\loginStep.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2687943599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Click on login link",
+            "match": {
+              "location": "src\\test\\steps\\loginStep.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 316782600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Enter the username as \"swtef\"",
+            "match": {
+              "location": "src\\test\\steps\\loginStep.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 392134600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Enter the password as \"Stego123!\"",
+            "match": {
+              "location": "src\\test\\steps\\loginStep.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 90603900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Click on the login button",
+            "match": {
+              "location": "src\\test\\steps\\loginStep.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 104030100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Login is successful",
+            "match": {
+              "location": "src\\test\\steps\\loginStep.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 231350099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 135493799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-authentication-tests;unsuccessful-login-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Unsuccessful login with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 357033600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Navigate to the application",
+            "match": {
+              "location": "src\\test\\steps\\loginStep.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2979379800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Click on login link",
+            "match": {
+              "location": "src\\test\\steps\\loginStep.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2103293799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Enter the username as \"or111i\"",
+            "match": {
+              "location": "src\\test\\steps\\loginStep.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 861653899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Enter the password as \"Pas111134\"",
+            "match": {
+              "location": "src\\test\\steps\\loginStep.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78390499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "Click on the login button",
+            "match": {
+              "location": "src\\test\\steps\\loginStep.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85607299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Login is not successful",
+            "match": {
+              "location": "src\\test\\steps\\loginStep.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 207083399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 137429000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-authentication-tests",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "User Authentication tests",
+    "tags": [],
+    "uri": "src\\test\\features\\login.feature"
+  }
+]

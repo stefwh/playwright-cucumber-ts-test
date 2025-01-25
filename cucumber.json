@@ -17,8 +17,9 @@
         "timeout": 20000,
         "format": [
             "progress-bar",
-            "html:test-results/cucumber-report.html",
-            "json:test-results/cucumber-report.json"
+            "html:reports/cucumber-html-reporter/cucumber_report.html",
+            "json:reports/cucumber-html-reporter/cucumber_report.json",
+            "html:reports/report.html"
         ]
     }
 }

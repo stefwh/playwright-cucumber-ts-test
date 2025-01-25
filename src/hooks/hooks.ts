@@ -17,7 +17,7 @@ Before(async function () {
 
 After(async function ({ pickle, result }: { pickle: any, result?: any }) {
     if (result?.status === Status.FAILED) {
-        const img = await pageFixture.page.screenshot({ path: `./test-results/screenshots/${pickle.name}.png`, type: "png" });
+        const img = await pageFixture.page.screenshot({ path: `./reports/cucumber-html-reporter/screenshots/${pickle.name}.png`, type: "png" });
         await this.attach(img, "image/png");
     }
     await pageFixture.page.close();
